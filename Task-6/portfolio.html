@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles3.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> 
+        <div class="container">
+            <a class="navbar-brand" href="#"> My Portfolio</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="@navMenu">
+                <span class=" navbar-toggler-icon"> </span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"> <a class="nav-link" href="#home"> Home</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="#about"> About</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="#skills"> Skills</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="#projects"> Projects</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="#contact"> Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<br>
+
+    <section id="home" class="bg-primary text-white text-center p-5">
+        <div>
+            <h1>Hello I'm Kenneth</h1>
+            <p class="lead"> Web Developer | IT student </p>
+            <a href="#projects" class="btn btn-light">View My Work</a>
+        </div> 
+    </section>
+<br>
+    <section id="about"> 
+        <div class = "container">
+            <div class ="row align-items-center">
+                <div class="col-lg-6">
+                    <img src="assets/pfp.jpg" alt="lego" class="img-fluid rounded" width="350" height="350">
+                </div>
+                <div class="col-lg-6">
+                    <h2> About me</h2>
+                    <p> I am a beginner in web development, learning HTML, CSS, Bootstrap, and JavaScript.
+                        I enjoy building simple, clean and responsive websites.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+<hr>
+
+    <section id="skills">
+        <div class="container text-center">
+            
+            <h2 class="mb-5">My skills</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class = "card p-3">HTML</div>
+                </div>
+                <div class="col-md-3">
+                    <div class = "card p-3">CSS</div>
+                </div>
+                <div class="col-md-3">
+                    <div class = "card p-3">Bootstrap</div>
+                </div>
+                <div class="col-md-3">
+                    <div class = "card p-3">JavaScript</div>
+                </div>
+            </div>
+        </div>
+    </section>
+<br>
+<br>
+    <section id="projects" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">My Projects</h2>
+
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="https://picsum.photos/300" alt="random image" class="card-img-top">
+                        <div class ="card-body">
+                            <h5 class="card-title"> Project 1</h5>
+                            <p class="card-text"> A simple portfolio website built with HTML and CSS.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="https://picsum.photos/300" alt="random image" class="card-img-top">
+                        <div class ="card-body">
+                            <h5 class="card-title"> Project 2</h5>
+                            <p class="card-text"> JavaScript project with interactive elements.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="https://picsum.photos/300" alt="random image" class="card-img-top">
+                        <div class ="card-body">
+                            <h5 class="card-title"> Project 3</h5>
+                            <p class="card-text"> Bootstrap project with responsive design.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<br>
+    <section id="contact" class="bg-dark text-white text-center p-5">
+        <div class="container text-center">
+            <h2>Contact Me</h2>
+            <p>Email: kenneth.manos1@gmail.com</p>
+            <p>Phone: 09123456789</p>
+        </div>
+    </section>
+
+    <footer class="text-center py-3 bg-secondary text-white">
+        <p class="mb-8"> 2026 Sherwin Kenneth Manos. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
