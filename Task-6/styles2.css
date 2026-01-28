@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: 'Times New Roman';
+    font-family: 'Segoe UI', Arial, sans-serif;
     background-color: #e8e8e8;
 }
 
@@ -8,14 +8,17 @@ body{
     width: 350px;
     margin: 100px auto;
     background-color: white;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 15px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
 .title{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    font-size: 1.8em;
+    font-weight: 400;
+    color: #333;
 }
 
 .form{
@@ -24,35 +27,60 @@ body{
 
 .label{
     display: block;
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-size: 0.95em;
+    color: #555;
+    font-weight: 500;
 }
 
 .input{
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     margin-top: 5px;
     font-size: 14px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    box-sizing: border-box;
+    border: 1.5px solid #ddd;
+    border-radius: 6px;
+    transition: border-color 0.3s ease;
+}
+
+.input:focus{
+    outline: none;
+    border-color: #4CAF50;
 }
 
 .btn{
     display: block;
-    width: 50%;
-    margin: 20px auto;
-    padding: 10px;
+    width: 100%;
+    margin: 25px auto;
+    padding: 12px;
     background-color: #4CAF50;
     color: white;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 6px;
+    border: none;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover{
+    background-color: #45a049;
 }
 
 .text{
-    margin-top: 15px;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666;
 }
 
 .link{
     color: #4CAF50;
     text-decoration: none;
+    font-weight: 500;
+}
+
+.link:hover{
+    text-decoration: underline;
 }
