@@ -57,8 +57,8 @@ body{
 }
 
 .btn{
-     width: 80%;
-     margin-top: 30px auto 0 auto;
+     width: 60%;
+     margin: 30px auto 0 auto;
      padding: 14px;
      background-color: #333;
      color: white;
@@ -70,6 +70,7 @@ body{
      cursor: pointer;
      transition: all 0.3s ease;
      text-decoration: none;
+     display: block;
 }
 
 .btn:hover{
@@ -94,5 +95,6 @@ body{
 .link:hover{
      text-decoration: underline;
 }
+
 
 
