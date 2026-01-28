@@ -13,7 +13,7 @@ body {
 }
 
 #home {
-    height: 50vh;
+    height: 75vh;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     display: flex;
@@ -99,4 +99,5 @@ body {
 footer {
     background-color: #24323f;
     padding: 20px 0;
+
 }
